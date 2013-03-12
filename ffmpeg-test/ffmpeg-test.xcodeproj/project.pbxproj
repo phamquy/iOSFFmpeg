@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04013CD7162550AC00746813 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 04013CD6162550AC00746813 /* main.c */; };
+		04013CD9162550AC00746813 /* dump.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04013CD8162550AC00746813 /* dump.1 */; };
+		049AC61F162D244300C28A50 /* tutorial07.c in Sources */ = {isa = PBXBuildFile; fileRef = 049AC618162D244300C28A50 /* tutorial07.c */; };
+		049AC627162D245800C28A50 /* decoding_encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = 049AC620162D245800C28A50 /* decoding_encoding.c */; };
+		049AC628162D245800C28A50 /* demuxing.c in Sources */ = {isa = PBXBuildFile; fileRef = 049AC621162D245800C28A50 /* demuxing.c */; };
+		049AC629162D245800C28A50 /* filtering_audio.c in Sources */ = {isa = PBXBuildFile; fileRef = 049AC622162D245800C28A50 /* filtering_audio.c */; };
+		049AC62A162D245800C28A50 /* filtering_video.c in Sources */ = {isa = PBXBuildFile; fileRef = 049AC623162D245800C28A50 /* filtering_video.c */; };
+		049AC62B162D245800C28A50 /* metadata.c in Sources */ = {isa = PBXBuildFile; fileRef = 049AC624162D245800C28A50 /* metadata.c */; };
+		049AC62C162D245800C28A50 /* muxing.c in Sources */ = {isa = PBXBuildFile; fileRef = 049AC625162D245800C28A50 /* muxing.c */; };
+		049AC62D162D245800C28A50 /* scaling_video.c in Sources */ = {isa = PBXBuildFile; fileRef = 049AC626162D245800C28A50 /* scaling_video.c */; };
+		049AC62F162D247300C28A50 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 049AC62E162D247300C28A50 /* Makefile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04013CD1162550AC00746813 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				04013CD9162550AC00746813 /* dump.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04013CD3162550AC00746813 /* dump */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dump; sourceTree = BUILT_PRODUCTS_DIR; };
+		04013CD6162550AC00746813 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		04013CD8162550AC00746813 /* dump.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = dump.1; sourceTree = "<group>"; };
+		049AC618162D244300C28A50 /* tutorial07.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tutorial07.c; sourceTree = "<group>"; };
+		049AC620162D245800C28A50 /* decoding_encoding.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = decoding_encoding.c; path = srcs/decoding_encoding.c; sourceTree = "<group>"; };
+		049AC621162D245800C28A50 /* demuxing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = demuxing.c; path = srcs/demuxing.c; sourceTree = "<group>"; };
+		049AC622162D245800C28A50 /* filtering_audio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = filtering_audio.c; path = srcs/filtering_audio.c; sourceTree = "<group>"; };
+		049AC623162D245800C28A50 /* filtering_video.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = filtering_video.c; path = srcs/filtering_video.c; sourceTree = "<group>"; };
+		049AC624162D245800C28A50 /* metadata.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = metadata.c; path = srcs/metadata.c; sourceTree = "<group>"; };
+		049AC625162D245800C28A50 /* muxing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = muxing.c; path = srcs/muxing.c; sourceTree = "<group>"; };
+		049AC626162D245800C28A50 /* scaling_video.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = scaling_video.c; path = srcs/scaling_video.c; sourceTree = "<group>"; };
+		049AC62E162D247300C28A50 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = srcs/Makefile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04013CD0162550AC00746813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04013CD5162550AC00746813 /* dump */ = {
+			isa = PBXGroup;
+			children = (
+				04013CD3162550AC00746813 /* dump */,
+				04013CD6162550AC00746813 /* main.c */,
+				04013CD8162550AC00746813 /* dump.1 */,
+			);
+			path = dump;
+			sourceTree = "<group>";
+		};
+		04D0BA701622908900D1A4A9 = {
+			isa = PBXGroup;
+			children = (
+				049AC62E162D247300C28A50 /* Makefile */,
+				04D0C8111622B2D600D1A4A9 /* SDL-tutorials */,
+				049AC620162D245800C28A50 /* decoding_encoding.c */,
+				049AC621162D245800C28A50 /* demuxing.c */,
+				049AC622162D245800C28A50 /* filtering_audio.c */,
+				049AC623162D245800C28A50 /* filtering_video.c */,
+				049AC624162D245800C28A50 /* metadata.c */,
+				049AC625162D245800C28A50 /* muxing.c */,
+				049AC626162D245800C28A50 /* scaling_video.c */,
+				04013CD5162550AC00746813 /* dump */,
+			);
+			sourceTree = "<group>";
+		};
+		04D0C8111622B2D600D1A4A9 /* SDL-tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				049AC618162D244300C28A50 /* tutorial07.c */,
+			);
+			name = "SDL-tutorials";
+			path = srcs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		04D0BA771622908900D1A4A9 /* ffmpeg-test */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 04D0BA7A1622908A00D1A4A9 /* Build configuration list for PBXLegacyTarget "ffmpeg-test" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/jack/clunet/vicloud/4.repos/transcoder/ffmpeg-examples/ffmpeg-test/srcs";
+			dependencies = (
+			);
+			name = "ffmpeg-test";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ffmpeg-test";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		04013CD2162550AC00746813 /* dump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04013CDC162550AC00746813 /* Build configuration list for PBXNativeTarget "dump" */;
+			buildPhases = (
+				04013CCF162550AC00746813 /* Sources */,
+				04013CD0162550AC00746813 /* Frameworks */,
+				04013CD1162550AC00746813 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dump;
+			productName = dump;
+			productReference = 04013CD3162550AC00746813 /* dump */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D0BA721622908900D1A4A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Jack;
+			};
+			buildConfigurationList = 04D0BA751622908900D1A4A9 /* Build configuration list for PBXProject "ffmpeg-test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04D0BA701622908900D1A4A9;
+			productRefGroup = 04D0BA701622908900D1A4A9;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D0BA771622908900D1A4A9 /* ffmpeg-test */,
+				04013CD2162550AC00746813 /* dump */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04013CCF162550AC00746813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04013CD7162550AC00746813 /* main.c in Sources */,
+				049AC61F162D244300C28A50 /* tutorial07.c in Sources */,
+				049AC627162D245800C28A50 /* decoding_encoding.c in Sources */,
+				049AC628162D245800C28A50 /* demuxing.c in Sources */,
+				049AC629162D245800C28A50 /* filtering_audio.c in Sources */,
+				049AC62A162D245800C28A50 /* filtering_video.c in Sources */,
+				049AC62B162D245800C28A50 /* metadata.c in Sources */,
+				049AC62C162D245800C28A50 /* muxing.c in Sources */,
+				049AC62D162D245800C28A50 /* scaling_video.c in Sources */,
+				049AC62F162D247300C28A50 /* Makefile in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04013CDA162550AC00746813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/../ffmpeg-uarch/include",
+					/usr/local/include/SDL,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04013CDB162550AC00746813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/../ffmpeg-uarch/include",
+					/usr/local/include/SDL,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04D0BA781622908900D1A4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		04D0BA791622908A00D1A4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		04D0BA7B1622908A00D1A4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04D0BA7C1622908A00D1A4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04013CDC162550AC00746813 /* Build configuration list for PBXNativeTarget "dump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04013CDA162550AC00746813 /* Debug */,
+				04013CDB162550AC00746813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D0BA751622908900D1A4A9 /* Build configuration list for PBXProject "ffmpeg-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D0BA781622908900D1A4A9 /* Debug */,
+				04D0BA791622908A00D1A4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D0BA7A1622908A00D1A4A9 /* Build configuration list for PBXLegacyTarget "ffmpeg-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D0BA7B1622908A00D1A4A9 /* Debug */,
+				04D0BA7C1622908A00D1A4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04D0BA721622908900D1A4A9 /* Project object */;
+}
