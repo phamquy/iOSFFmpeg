@@ -10,3 +10,8 @@ FFmpeg player for ios
 - Audio/Video out of sync on iphone4 and earlier
 - Can play all format support by ffmpeg
 - Can play local .ts file
+
+
+FFmpegPlayer: player project, 
+ffmpeg-test: ffmpeg test 
+ffmpeg-uarch: prebuilt binary for ios (support both device and simulator)
