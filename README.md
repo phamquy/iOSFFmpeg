@@ -12,6 +12,8 @@ FFmpeg player for ios
 - Can play local .ts file
 
 
-FFmpegPlayer: player project, 
-ffmpeg-test: ffmpeg test 
-ffmpeg-uarch: prebuilt binary for ios (support both device and simulator)
+Folder structure: 
+
+- FFmpegPlayer: player project 
+- ffmpeg-test:  ffmpeg test source code
+- ffmpeg-uarch:  prebuilt binary for ios (support both device and simulator)
