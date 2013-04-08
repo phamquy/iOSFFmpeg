@@ -8,3 +8,5 @@ FFmpeg player for ios
 - Use Audio Queue Service to handle audio output
 - Works on iphone4s
 - Audio/Video out of sync on iphone4 and earlier
+- Can play all format support by ffmpeg
+- Can play local .ts file
